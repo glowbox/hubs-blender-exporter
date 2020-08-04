@@ -50,6 +50,30 @@
         "isOccupied": {"type": "bool", "default": false}
       }
     },
+    "ply-loader": {
+      "category": "Glowbox",
+      "node": true,
+      "properties": {
+        "plypath": {"type": "string", "default": false},
+        "texturepath": {"type": "string", "default": false}
+      }
+    },
+    "depthkit-player": {
+      "category": "Glowbox",
+      "node": true,
+      "properties": {
+        "type": {"type": "string", "default": "mesh"},
+        "metaPath": {"type": "string", "default": false},
+        "videoPath": {"type": "string", "default": false}
+      }
+    },
+    "depthkit2d-player": {
+      "category": "Glowbox",
+      "node": true,
+      "properties": {
+        "videoPath": {"type": "string", "default": false}
+      }
+    },
     "uv-scroll": {
       "category": "Animation",
       "node": true,
