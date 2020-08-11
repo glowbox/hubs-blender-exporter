@@ -8,11 +8,11 @@ from . import nodes
 from .gather_properties import gather_properties, gather_lightmap_texture_info
 
 bl_info = {
-    "name" : "Hubs Blender Exporter",
-    "author" : "MozillaReality",
+    "name" : "Hubs Blender Exporter: Glowbox Fork",
+    "author" : "Glowbox, forked from MozillaReality",
     "description" : "Tools for developing GLTF assets for Mozilla Hubs",
     "blender" : (2, 83, 0),
-    "version" : (0, 0, 4),
+    "version" : (0, 0, 1),
     "location" : "",
     "wiki_url": "https://github.com/MozillaReality/hubs-blender-exporter",
     "tracker_url": "https://github.com/MozillaReality/hubs-blender-exporter/issues",
