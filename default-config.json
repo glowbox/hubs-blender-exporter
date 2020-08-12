@@ -54,28 +54,33 @@
       "category": "Glowbox",
       "node": true,
       "properties": {
-        "src": {"type": "string", "default": false}
+        "src": {"type": "string", "default": false},
+		"id": {"type": "string", "default": false}
       }
     },
     "depthkit-player": {
       "category": "Glowbox",
       "node": true,
       "properties": {
-        "src": {"type": "string", "default": false}
+        "src": {"type": "string", "default": false},
+		"id": {"type": "string", "default": false}
       }
     },
     "depthkit2d-player": {
       "category": "Glowbox",
       "node": true,
       "properties": {
-        "src": {"type": "string", "default": false}
+        "src": {"type": "string", "default": false},
+		"id": {"type": "string", "default": false}
       }
     },
     "depthkit-stream": {
       "category": "Glowbox",
       "node": true,
       "properties": {
-        "src": {"type": "string", "default": false}
+        "src": {"type": "string", "default": false},
+		"id": {"type": "string", "default": false},
+		"mode": {"type": "string", "default": false}
       }
     },
     "uv-scroll": {
