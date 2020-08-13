@@ -50,12 +50,23 @@
         "isOccupied": {"type": "bool", "default": false}
       }
     },
-    "ply-loader": {
+	"spawn-point": {
+      "category": "Scene",
+      "node": true,
+      "properties": {}
+    },
+    "point-model": {
       "category": "Glowbox",
       "node": true,
       "properties": {
         "src": {"type": "string", "default": false},
-		"id": {"type": "string", "default": false}
+		"id": {"type": "string", "default": false},
+		"size": { "type": "float", "default": 0.01 },
+		"alphaTest": { "type": "float", "default": 0.02 },
+		"opacity": { "type": "float", "default": 0.05 },
+		"transparent": {"type": "bool", "default": true },
+		"blending": {"type": "string", "default": "additive" },
+		"sizeAttenuation": { "type": "bool", "default": true}
       }
     },
     "depthkit-player": {
