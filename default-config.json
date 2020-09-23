@@ -90,8 +90,11 @@
       "node": true,
       "properties": {
         "src": {"type": "string", "default": false},
-		"id": {"type": "string", "default": false},
-		"mode": {"type": "string", "default": false}
+		    "id": {"type": "string", "default": false},
+		    "mode": {"type": "string", "default": false},
+        "pointsize": {"type": "float", "default": 8.0},
+        "mindepth": {"type": "float", "default": 0.0},
+        "maxdepth": {"type": "float", "default": 3.0}
       }
     },
     "uv-scroll": {
