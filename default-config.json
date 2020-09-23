@@ -94,7 +94,11 @@
 		    "mode": {"type": "string", "default": false},
         "pointsize": {"type": "float", "default": 8.0},
         "mindepth": {"type": "float", "default": 0.0},
-        "maxdepth": {"type": "float", "default": 3.0}
+        "maxdepth": {"type": "float", "default": 3.0},
+        "uiPosition": {"type": "vec3", "default": {"x": 0, "y": 0, "z": 0}},
+        "uiRotation": {"type": "vec3", "default": {"x": 0, "y": 0, "z": 0}},
+        "uiScale": {"type": "vec3", "default": {"x": 0, "y": 0, "z": 0}},
+        "uiDelay": {"type": "float","default": 1.0}
       }
     },
     "uv-scroll": {
