@@ -92,12 +92,12 @@
         "src": {"type": "string", "default": false},
 		    "id": {"type": "string", "default": false},
 		    "mode": {"type": "string", "default": false},
-        "pointsize": {"type": "float", "default": 8.0},
-        "mindepth": {"type": "float", "default": 0.0},
-        "maxdepth": {"type": "float", "default": 3.0},
+        "pointSize": {"type": "float", "default": 8.0},
+        "minDepth": {"type": "float", "default": 0.0},
+        "maxDepth": {"type": "float", "default": 4.0},
         "uiPosition": {"type": "vec3", "default": {"x": 0, "y": 0, "z": 0}},
         "uiRotation": {"type": "vec3", "default": {"x": 0, "y": 0, "z": 0}},
-        "uiScale": {"type": "vec3", "default": {"x": 0, "y": 0, "z": 0}},
+        "uiScale": {"type": "vec3", "default": {"x": 1, "y": 1, "z": 1}},
         "uiDelay": {"type": "float","default": 1.0}
       }
     },
