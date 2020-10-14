@@ -1,3 +1,17 @@
+Volumetric Performance Toolbox
+=====
+
+> How can artists create new live performances during the time of COVID-19? Volumetric Performance Toolbox empowers creators to perform from their own living spaces for a virtual audience. Movement artist Valencia James performed publicly with the Toolbox for the first time on September 24, 2020 in the Mozilla Hubs virtual social space. The project is a collaboration between Valencia James, Glowbox and Sorob Louie as part of Eyebeam’s Rapid Response for a Better Digital Future fellowship.
+
+More information on the Volumetric Performance Toolbox here:
+
+https://valenciajames.com/volumetric-performance/
+
+https://www.glowbox.io/work/volumetric-performance/
+
+This is a fork of the Hubs Exporter for Blender, it introduces a few custom components to stream volumnetric video.
+
+
 # Hubs Exporter for Blender
 
 This addon extends the glTF 2.0 exporter to support the `MOZ_hubs_components` and `MOZ_lightmap` extensions allowing you to add behavior to glTF assets for [Mozilla Hubs](https://hubs.mozilla.com).
